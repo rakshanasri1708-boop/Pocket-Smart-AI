@@ -41,8 +41,7 @@ if st.button("💡 Get AI Budget Plan"):
      4. Best investment for student (Mutual fund/SIP/Gold)
      Use Tamil + English mix, friendly tone.
      """
-     res =
-model.generate_content(prompt)
+     res =model.generate_content(prompt)
      st.success("Your Personalized Plan:")
      st.write(res.text)
 
