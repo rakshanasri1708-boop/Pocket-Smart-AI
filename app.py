@@ -29,15 +29,21 @@ st.metric("Remaining", f"₹{savings}")
 
 goal = st.selectbox("Your Saving Goal", ["Save 5k per month", "Buy Laptop", "Trip", "Just manage"])
 if st.button("💡 Get AI Budget Plan"):
-with st.spinner("Analyzing..."):
-    prompt = f"""
-I am Indian college student. Income {income}, expenses: Rent {rent}, Food {food}, Travel {travel}, OTT {ott}, Others {others}.
-Total expense {total_exp}, saving {savings}. Goal: {goal}.
-Give: 1. 50/30/20 budget review 2. Where to cut 3. 3 smart saving tips 4. Best investment for student (Mutual fund/SIP/Gold)
-Use Tamil + English mix, friendly tone.
-"""
-res = model.generate_content(prompt)
-st.success("Your Personalized Plan:")
-st.write(res.text)
+   with st.spinner("Analyzing..."):
+     prompt = f"""
+     I am Indian college student. Income {income}, expenses:
+     Rent {rent}, Food {food}, Travel {travel}, OTT {ott}, Others {others}.
+     Total expense {total_exp}, saving {savings}. Goal: {goal}.
+     Give:
+     1. 50/30/20 budget review 
+     2. Where to cut 
+     3. 3 smart saving tips 
+     4. Best investment for student (Mutual fund/SIP/Gold)
+     Use Tamil + English mix, friendly tone.
+     """
+     res =
+model.generate_content(prompt)
+     st.success("Your Personalized Plan:")
+     st.write(res.text)
 
 st.sidebar.info("For NASSCOM FSP SB Project")
