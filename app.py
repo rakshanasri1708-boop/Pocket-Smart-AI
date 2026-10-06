@@ -1,6 +1,6 @@
 import os
-import streamlit as st
-from google import genai
+import streamlit as st 
+import google.generativeai as genai
 
 # Page settings
 st.set_page_config(
