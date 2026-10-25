@@ -1,6 +1,5 @@
-# ComicCraft - AI Comic Story Creator
+# PocketSmart AI - Your Smart Budget & Recommendation
 SB Generative AI with Google Cloud Data
-- Converts idea to 4-6 panel comic script
-- Gives visual prompts for image generation
-- Tanglish support
-Future: Image generation integration
+- 50/30/20 Budget Analysis
+- AI saving suggestions
+- Indian student focused
