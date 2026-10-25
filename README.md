@@ -16,6 +16,6 @@ Pocket-Smart-AI is an AI-powered budget planner that helps users manage expenses
 3. Add Gemini API Key in app.py
 4. python app.py
 
-### Demo Video: [inka video link add pannunga]
+### Demo Video: [https://pocket-smart-ai-gmljxbl2litdk7fxgappdbz.streamlit.app/]
 
 ### Team: rakshanasri1708-boop
